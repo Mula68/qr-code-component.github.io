@@ -1,1 +1,38 @@
-/*# sourceMappingURL=main.css.map */
+main {
+  font-family: Outfit, sans-serif;
+  margin: 0;
+  padding: 35% 5%;
+  background-color: hsl(212deg, 45%, 89%);
+}
+
+.card {
+  padding: 3%;
+  border-radius: 10px;
+  background-color: hsl(0deg, 0%, 100%);
+}
+.card .qr-code {
+  border-radius: 10px;
+}
+.card .qr-code img {
+  width: 100%;
+  border-radius: 10px;
+}
+.card .text {
+  padding: 1% 5%;
+  text-align: center;
+  font-size: large;
+}
+.card .text h4 {
+  font-weight: 800;
+  color: hsl(218deg, 44%, 22%);
+}
+.card .text p {
+  color: hsl(220deg, 15%, 55%);
+  font-size: 15px;
+}
+
+@media only screen and (min-width: 820px) {
+  main {
+    padding: 7% 38%;
+  }
+}/*# sourceMappingURL=main.css.map */
